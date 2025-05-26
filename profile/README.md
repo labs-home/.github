@@ -10,10 +10,11 @@ Whilst some of the files located in these repos are aligned for my own Homelab, 
 
 ## Featured Tools
 **The tools mentioned below are some that are used in a number of the repos to perform various actions:**
-- Terraform - IaC tool to apply configuration for services such as Cloudflare, Proxmox etc.
-- Ansible - IaC tool to provision configuration for hosts.
-- Taskfile - Alternative to Makefile which simplifies execution of tasks.
-- GitHub Actions - CI/CD tool that I use for testing and applying configuration.
+- **Terraform** - IaC tool to apply configuration for services such as Cloudflare, Proxmox etc.
+- **Ansible** - IaC tool to provision configuration for hosts.
+- **Taskfile** - Alternative to Makefile which simplifies execution of tasks.
+- **GitHub** Actions - CI/CD tool that I use for testing and applying configuration.
+- **Discord** - All Homelab and GitHub repo actions send notifications to a private Discord server.
 
 ## Homelab Architecture
 ```

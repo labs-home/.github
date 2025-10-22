@@ -1,7 +1,8 @@
 <h1 align=center> Foggy's Homelab</h1>
 <div align="center">
-    <a href="https://www.linkedin.com/in/jake-l-fogden/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?&style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>&nbsp
-    <a href="mailto:jakelfogden@outlook.com"><img src="https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email"></a>
+    <a href="https://github.com/foggy-j" target="_blank"><img src="https://img.shields.io/badge/Personal%20GitHub-gray?style=for-the-badge&logo=github" alt="LinkedIn"></a>&nbsp
+    <a href="https://www.linkedin.com/in/jake-l-fogden/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge" alt="LinkedIn"></a>&nbsp
+    <a href="mailto:jakelfogden@outlook.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=maildotru&logoColor=white" alt="Email"></a>
 </div>
 
 ### Includes Terraform, Ansible and base configuration files for my personal Homelab.
@@ -26,30 +27,28 @@ Whilst some of the files located in these repos are aligned for my own Homelab, 
 ┣━ OPNSense
 ┣━ Bind9 DNS
 ┣━ Unifi Controller
+┣━ External-facing Bastion Host
 ┣━ IPAM
-┣━ Core GitHub Runner (K3s)
-┣━ Rancher (Kubernetes cluster management)
+┣━ Home Assistant
 ┣━ Monitoring Stack (Grafana, Prometheus, InfluxDB)
 ┗━ Adguard
+
+┳ Tools-Mini (Debian)
+┗━ GitHub Runner (Provisioning)
 
 ┳ UPS-Man (RPi - Alpine)
 ┗━ NUT (Network UPS Tools)
 
 ┳ Prmx-mini-1 (Proxmox)
-┣━ Kubernetes (Master)
-┣━ Kubernetes (Worker)
-┣━ Home Assistant
-┗━ External-facing Bastion Host
+┣━ Kubernetes (Master & Worker)
+┗━ Kubernetes (Staging Environment)
 
 ┳ Prmx-mini-2 (Proxmox)
-┣━ Kubernetes (Master)
-┣━ Kubernetes (Worker)
-┣━ Development Nodes
-┗━ streamrecorder.io Node
+┣━ Kubernetes (Master & Worker)
+┗━ Development Nodes
 
 ┳ Prmx-mini-3 (Proxmox)
-┣━ Kubernetes (Master)
-┣━ Kubernetes (Worker)
+┣━ Kubernetes (Master & Worker)
 ┣━ Misc. Hosting
 ┗━ Game Servers
 
